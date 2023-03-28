@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Inter:wght@400;700&display=swap');
+
+:root {
+  --cor-texto: #FFFFFF;
+  --cor-texto-claro: #040101;
+  --cor-amarelo: #FFC700;
+
+  --fonte-primaria: 'Inter', sans-serif;
+  --fonte-secundaria: 'Emilys Candy', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.principal {
+  text-align: center;
+  padding-top: 10rem;
+  background: url(https://i.ibb.co/S5d7cFT/background-image.jpg) no-repeat center/cover;
+  height: 100vh;
+  font-family: var(--fonte-primaria);
+}
+
+.principal__subtitulo {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--cor-texto);
+}
+
+h3 span {
+  color: var(--cor-amarelo);
+}
+
+.principal__titulo {
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;  
+  font-size: 64px;
+  line-height: 80px;
+  color: var(--cor-amarelo);
+}
+
+.principal__texto {
+  font-weight: 400; 
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--cor-texto);
+  opacity: 0.7;
+  margin-bottom: 4.5rem;
+}
+
+a {
+  padding: 0.75rem 2rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+a:hover,
+.btn-primary {
+  text-decoration: none;
+  background-color: var(--cor-amarelo);
+  color: var(--cor-texto-claro);
+  opacity: 1;
+}
