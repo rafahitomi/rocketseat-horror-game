@@ -23,6 +23,10 @@
   background: url(https://i.ibb.co/S5d7cFT/background-image.jpg) no-repeat center/cover;
   height: 100vh;
   font-family: var(--fonte-primaria);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .principal__subtitulo {
@@ -68,4 +72,41 @@ a:hover,
   background-color: var(--cor-amarelo);
   color: var(--cor-cinza);
   opacity: 1;
+}
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 595px) {
+  .principal__titulo {
+    padding: 0 2rem;
+  }
+
+  .principal__texto {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .principal__titulo {
+    font-size: 54px;
+  }
+
+  .principal__texto {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .principal__titulo {
+    font-size: 48px;
+  }
+
+  .principal__texto {
+    font-size: 18px;
+  }
+
+  a {
+    padding: 0.75rem 1rem;
+    font-size: 18px;
+  }
 }
