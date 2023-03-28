@@ -2,7 +2,7 @@
 
 :root {
   --cor-texto: #FFFFFF;
-  --cor-texto-claro: #040101;
+  --cor-cinza: #040101;
   --cor-amarelo: #FFC700;
 
   --fonte-primaria: 'Inter', sans-serif;
@@ -58,7 +58,7 @@ a {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: var(--cor-texto);
   opacity: 0.6;
 }
 
@@ -66,6 +66,6 @@ a:hover,
 .btn-primary {
   text-decoration: none;
   background-color: var(--cor-amarelo);
-  color: var(--cor-texto-claro);
+  color: var(--cor-cinza);
   opacity: 1;
 }
